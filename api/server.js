@@ -9,7 +9,7 @@ server.use(express.json());
 server.use("/games", gamesRouter);
 
 server.get("/", (req, res) => {
-  res.status(200).json({ api: "running" });
+  res.status(200).json({ api: "ITS RUNNNNNING" });
 });
 
 module.exports = server;
